@@ -1,0 +1,544 @@
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 70px;
+}
+
+/* START - NAV */
+.hovered_item:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.nav-item:hover a::after {
+  opacity: 1;
+  width: 80%;
+}
+
+.dropstart .submenu {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.dropstart:hover .submenu {
+  opacity: 1;
+}
+
+/* END - NAV  */
+
+/*-----------------------------------*/
+
+/* START - HOME */
+#home-page {
+  background-image: url(../img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-page h1 {
+  
+  font-size: 2.5rem;
+}
+
+.animation::after {
+  content: " |";
+  animation: type 7s infinite;
+  font-size: 2.5rem;
+  
+}
+
+@keyframes type {
+  0% {
+    content: "  M|";
+  }
+  1% {
+    content: "  Mo|";
+  }
+  2% {
+    content: "  Moh|";
+  }
+  3% {
+    content: "  Moha|";
+  }
+  4% {
+    content: "  Moham|";
+  }
+  5% {
+    content: "  Mohame";
+  }
+  6% {
+    content: "  Mohamed|";
+  }
+  7% {
+    content: "  Mohamed |";
+  }
+  8% {
+    content: "  Mohamed K|";
+  }
+  9% {
+    content: "  Mohamed Ka|";
+  }
+  10% {
+    content: "  Mohamed Kam|";
+  }
+  11% {
+    content: "  Mohamed Kama|";
+  }
+  12% {
+    content: "  Mohamed Kamas|";
+  }
+  13% {
+    content: "  Mohamed Kamash|";
+  }
+  14% {
+    content: "  Mohamed Kamash|";
+  }
+  15% {
+    content: "  Mohamed Kamash|";
+  }
+  16% {
+    content: "  Mohamed Kamash|";
+  }
+  17% {
+    content: "  Mohamed Kamash|";
+  }
+  18% {
+    content: "  Mohamed Kamash|";
+  }
+  19% {
+    content: "  Mohamed Kamash|";
+  }
+  20% {
+    content: "  Mohamed Kamash|";
+  }
+
+  21% {
+    content: "   Mohamed Kamas|";
+  }
+  22% {
+    content: "  Mohamed Kama|";
+  }
+  23% {
+    content: "  Mohamed Kam|";
+  }
+  24% {
+    content: "  Mohamed Ka|";
+  }
+  25% {
+    content: "  Mohamed K|";
+  }
+  26% {
+    content: "  Mohamed |";
+  }
+  27% {
+    content: "  Mohamed|";
+  }
+  28% {
+    content: "  Mohame|";
+  }
+  29% {
+    content: "  Moham|";
+  }
+  30% {
+    content: "  Moha|";
+  }
+  31% {
+    content: "  Moh|";
+  }
+  32% {
+    content: "  Mo|";
+  }
+  33% {
+    content: "  M|";
+  }
+  34% {
+    content: "  |";
+  }
+  35% {
+    content: "  |";
+  }
+  36% {
+    content: "  D|";
+  }
+  37% {
+    content: "  De|";
+  }
+  38% {
+    content: "  Dev| ";
+  }
+  39% {
+    content: "  Deve|";
+  }
+  40% {
+    content: "  Devel|";
+  }
+  41% {
+    content: "  Develo|";
+  }
+  42% {
+    content: "  Develop|";
+  }
+  43% {
+    content: "  Develope|";
+  }
+  44% {
+    content: "  Developer|";
+  }
+  45% {
+    content: "  Developer|";
+  }
+  46% {
+    content: "  Developer|";
+  }
+  47% {
+    content: "  Developer|";
+  }
+  48% {
+    content: "  Developer|";
+  }
+  49% {
+    content: "  Developer|";
+  }
+  50% {
+    content: "  Developer|";
+  }
+  51% {
+    content: "  Developer|";
+  }
+  52% {
+    content: "  Develope|";
+  }
+  53% {
+    content: "  Develop|";
+  }
+  54% {
+    content: "  Develo|";
+  }
+  55% {
+    content: "  Devel|";
+  }
+  56% {
+    content: "  Deve|";
+  }
+  57% {
+    content: "  Dev|";
+  }
+  58% {
+    content: "  De|";
+  }
+  59% {
+    content: "  D|";
+  }
+  60% {
+    content: "  |";
+  }
+  61% {
+    content: " De|";
+  }
+  62% {
+    content: " Des|";
+  }
+  63% {
+    content: " Desi|";
+  }
+  64% {
+    content: " Desig|";
+  }
+  65% {
+    content: " Design|";
+  }
+  66% {
+    content: " Designe|";
+  }
+  67% {
+    content: " Designer|";
+  }
+  68% {
+    content: " Designer|";
+  }
+  69% {
+    content: " Designer|";
+  }
+  70% {
+    content: " Designer|";
+  }
+  71% {
+    content: " Designer|";
+  }
+  72% {
+    content: " Designer|";
+  }
+  73% {
+    content: " Designer|";
+  }
+  74% {
+    content: " Designer|";
+  }
+  75% {
+    content: " Designer|";
+  }
+  76% {
+    content: " Designer|";
+  }
+  77% {
+    content: " Designe|";
+  }
+  78% {
+    content: " Design|";
+  }
+  79% {
+    content: " Desig|";
+  }
+  80% {
+    content: " Desi|";
+  }
+  81% {
+    content: " Des|";
+  }
+  82% {
+    content: " De|";
+  }
+  83% {
+    content: " D|";
+  }
+  100% {
+    content: " |";
+  }
+}
+
+/* END - HOME  */
+/*-----------------------------------*/
+/* START - ABOUT  */
+#about .progress {
+  height: 10px;
+}
+#about .progress [aria-valuenow="85"] {
+  width: 85%;
+}
+
+#about .progress [aria-valuenow="90"] {
+  width: 90%;
+}
+
+#about .about-right h2::before {
+  content: "";
+  width: 70%;
+  height: 3px;
+  background-color: blue;
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+}
+/* END - ABOUT  */
+/*-------------------------------*/
+/* START - SERVICES */
+#services .cust__underline::before {
+  content: "";
+  width: 3%;
+  height: 5px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+#services .rounded-circle {
+  width: 100px;
+  height: 100px;
+  border: 10px solid;
+}
+
+#services .inner:hover .rounded-circle {
+  border-color: #cfe2ff !important;
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+/* END - SERVICES */
+/*----------------------------------*/
+/* START - INFO */
+#info {
+  background-image: url(../img/counters-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#info .rounded-circle {
+  width: 50px;
+  height: 50px;
+  padding: 35px;
+  border: 9px solid #cfe2ff;
+}
+#info .counter::before {
+  content: "";
+  font-size: 32px;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: counter 0.5s infinite;
+}
+@keyframes counter {
+  10% {
+    content: "0";
+  }
+  20% {
+    content: "12";
+  }
+  30% {
+    content: "44";
+  }
+  40% {
+    content: "55";
+  }
+  50% {
+    content: "65";
+  }
+  60% {
+    content: "78";
+  }
+  70% {
+    content: "120";
+  }
+  80% {
+    content: "220";
+  }
+  90% {
+    content: "230";
+  }
+  100% {
+    content: "344";
+  }
+}
+/* END - INFO */
+/*--------------------------------*/
+/* START - WORK */
+#work .cust__underline::before {
+  content: "";
+  width: 3%;
+  height: 5px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+#work .rounded-circle {
+  width: 40px;
+  height: 40px;
+}
+
+#work .small__font {
+  font-size: 12px;
+}
+
+#work .inner img {
+  transition: all 1s;
+}
+
+#work .inner:hover img {
+  transform: scale(1.4);
+}
+/* END - WORK */
+/*--------------------------------*/
+/* START - Carousel */
+#slider {
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#slider .fixed__size {
+  width: 150px;
+  height: 150px;
+}
+
+#slider .fixed__circle {
+  width: 15px;
+  height: 15px;
+}
+
+/* END - Carousel */
+/*---------------------------------*/
+/* START - BLOG  */
+#blog .cust__underline::before {
+  content: "";
+  width: 3%;
+  height: 5px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+}
+
+#blog .fixed__size {
+  width: 30px;
+  height: 30px;
+}
+
+#blog .blue__hover:hover {
+  color: #0d6efd;
+}
+
+/* END - BLOG  */
+/*--------------------------------*/
+/* START - CONTACT  */
+#contact{
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+#contact .cust__underline::before {
+  content: "";
+  width: 15%;
+  height: 3px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#contact .rounded-circle {
+  width: 45px;
+  height: 45px;
+}
+
+#contact .rounded-circle{
+  transition: all 0.5s;
+}
+#contact .rounded-circle:hover{
+  border-color: #cfe2ff !important;
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+/* END - CONTACT  */
+
+/* START - FOOTER */
+
+#footer{
+  background-color: #0062d3;
+}
+/* END - FOOTER */

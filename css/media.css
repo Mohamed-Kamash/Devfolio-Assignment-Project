@@ -1,0 +1,114 @@
+/* EXTRA-SMALL */
+@media screen and (min-width: 1px) and (max-width: 576px) {
+  /* START - NAVBAR  */
+
+  #nav .nav-item .nav-link {
+    color: #4e4e4e !important;
+  }
+
+  #nav .nav-item .nav-link:hover {
+    color: rgb(61, 61, 255) !important;
+  }
+
+  #nav .collapse {
+    background-color: white;
+  }
+
+  .dropstart .submenu {
+    position: absolute;
+    top: 0;
+    right: 30%;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  /* END - NAVBAR  */
+
+  /* START HOME  */
+  #home-page h1 {
+    font-size: 48px;
+  }
+  /* END HOME  */
+
+
+
+
+  
+}
+/*----------------------------------------*/
+
+/* SMALL - SCREEN */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* START - NAVBAR  */
+
+  #nav .nav-item .nav-link {
+    color: #4e4e4e !important;
+  }
+  #nav .nav-item .nav-link:hover {
+    color: rgb(61, 61, 255) !important;
+  }
+
+  #nav .collapse {
+    background-color: white;
+  }
+  .dropstart .submenu {
+    position: absolute;
+    top: 0;
+    right: 35%;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  /* END - NAVBAR  */
+
+  /* START HOME -  */
+
+  #home-page h1 {
+    font-size: 48px;
+  }
+  /* END HOME -*/
+
+
+
+
+
+
+
+}
+
+/*--------------------------------------*/
+/* MED - SCREEN */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  /* START - NAVBAR  */
+
+  #nav .nav-item .nav-link {
+    color: #4e4e4e !important;
+  }
+  #nav .nav-item .nav-link:hover {
+    color: rgb(61, 61, 255) !important;
+  }
+
+  #nav .collapse {
+    background-color: white;
+  }
+  .dropstart .submenu {
+    position: absolute;
+    top: 0;
+    right: 55%;
+    opacity: 0;
+    transition: all 0.4s;
+  }
+  /* END - NAVBAR  */
+
+  /* START - BLOG  */
+  #blog .bg-white .translate-middle{font-size: 12px;}
+  /* END BLOG */
+
+
+
+
+
+
+}
